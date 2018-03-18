@@ -1,0 +1,13 @@
+If Bar charts doesn't work there is a folder images with added bar charts pictures.
+
+Instructions for getting JavaFx package:
+
+You can add the "jfxrt.jar" manually! Its in the installed JDK. Example:
+
+    Windows XP: "C: \ Program Files \ Java \ jdk1.7.0_17 \ jre \ lib \ jfxrt.jar"
+    Windows 7 (32 bit): "C: \ Program Files (x86) \ Java \ jdk1.7.0_17 \ jre \ lib \ jfxrt.jar"
+    Windows 7 (64 bit): "C: \ Program Files \ Java \ jdk1.7.0_17 \ jre \ lib \ jfxrt.jar"
+
+Copy the jar file and put it to a subfolder in the project (for example, / lib).
+
+Now add the "jfxrt.jar" to the classpath. Click the right mouse button on the project and select from Properties -> Java Build Path -> Libraries -> Add JARs from ... and add the jar file.

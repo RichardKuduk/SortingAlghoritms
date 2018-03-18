@@ -2,7 +2,7 @@ package testers;
 import java.util.Arrays;
 
 import sortingAlghoritms.*;
-public class BubbleSortEnhaced_Tester {
+public class InsertionSort_Tester {
 	// Richard Kuduk - L00120064
 	// Lyit - Assigment for Alghoritms and Data Structures
 	public static void main(String[] args) {
@@ -29,7 +29,7 @@ public class BubbleSortEnhaced_Tester {
 		// Reset variables to zero
 		results.reset();
 		// Print and sort array
-		System.out.println(Arrays.toString(BubbleSortEnhaced.bubbleSortWithBreak(numbers, results)));
+		System.out.println(Arrays.toString(InsertionSort.doInsertionSort(numbers, results)));
 		// Display details 
 		System.out.println("Time taken: " + results.time +"ms");
 		System.out.println("Swaps: " + results.numberOfSwaps);
@@ -38,8 +38,11 @@ public class BubbleSortEnhaced_Tester {
 		
 		
 		// *************
+		// Print original array
+				System.out.println(Arrays.toString(ascendingArray));
+				System.out.println("**************************************");
 		// Print and sort array
-		System.out.println(Arrays.toString(BubbleSortEnhaced.bubbleSortWithBreak(ascendingArray, results)));
+		System.out.println(Arrays.toString(InsertionSort.doInsertionSort(ascendingArray, results)));
 		// Display details 
 		System.out.println("Time taken: " + results.time +"ms");
 		System.out.println("Swaps: " + results.numberOfSwaps);
@@ -47,13 +50,17 @@ public class BubbleSortEnhaced_Tester {
 		results.reset();
 
 		// *************
+		// Print original array
+		System.out.println(Arrays.toString(descendingArray));
+		System.out.println("**************************************");
 		// Print and sort array
-		System.out.println(Arrays.toString(BubbleSortEnhaced.bubbleSortWithBreak(descendingArray, results)));
+		System.out.println(Arrays.toString(InsertionSort.doInsertionSort(descendingArray, results)));
 		// Display details 
 		System.out.println("Time taken: " + results.time +"ms");
 		System.out.println("Swaps: " + results.numberOfSwaps);
 		System.out.println("Comparisons: " + results.numberOfComparisons);
 		results.reset();
+		
 
 		
 

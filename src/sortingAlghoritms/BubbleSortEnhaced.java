@@ -3,7 +3,8 @@ package sortingAlghoritms;
 import java.util.Arrays;
 
 public class BubbleSortEnhaced {
-
+	// Richard Kuduk - L00120064
+	// Lyit - Assigment for Alghoritms and Data Structures
 	// MODIFIED BUBBLE SORT INCLUDES BREAK
 	public static int[] bubbleSortWithBreak(int[] arrayToSort, SorterObject results) {
 

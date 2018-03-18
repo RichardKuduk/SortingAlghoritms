@@ -3,7 +3,8 @@ package sortingAlghoritms;
 import java.util.Random;
 
 public  class GenerateArrays {
-
+	// Richard Kuduk - L00120064
+	// Lyit - Assigment for Alghoritms and Data Structures
 	
 	// Method to generate array 1 - 10000
     public static void populateAscendingArray(int[] array)

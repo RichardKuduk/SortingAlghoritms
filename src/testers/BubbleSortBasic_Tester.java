@@ -3,7 +3,8 @@ import java.util.Arrays;
 
 import sortingAlghoritms.*;
 public class BubbleSortBasic_Tester {
-
+	// Richard Kuduk - L00120064
+	// Lyit - Assigment for Alghoritms and Data Structures
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// Create Object to store results

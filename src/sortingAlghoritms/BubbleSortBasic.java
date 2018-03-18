@@ -2,7 +2,8 @@ package sortingAlghoritms;
 import java.util.Arrays;
 
 public class BubbleSortBasic {
-
+	// Richard Kuduk - L00120064
+	// Lyit - Assigment for Alghoritms and Data Structures
 	
 	 // Basic Bubble Sort
     public static int[] bubbleSortBasic(int [] arrayToSort , SorterObject results)
